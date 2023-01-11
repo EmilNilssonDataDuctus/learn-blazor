@@ -1,0 +1,20 @@
+﻿@page "/namecombiner"
+@using BlazorApp.Data
+@inject GeneratedNameService NameService
+
+<PageTitle>Name Combiner</PageTitle>
+
+<h1>Name Combiner</h1>
+
+<p role="status">Random name generated: @generatedName</p>
+
+<button class="btn btn-primary" @onclick="GenerateName">Click me to generate new name</button>
+
+@code {
+    private string? generatedName;
+
+    private void GenerateName()
+    {
+        generatedName = NameService.GetGeneratedName();
+    }
+}
