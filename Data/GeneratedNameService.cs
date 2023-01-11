@@ -12,6 +12,11 @@ public class GeneratedNameService
         "son", "ner", "quist", "sen", "berg", "rehn", "dat", "hol", "onen", "man", "lund"
     };
 
+    public int GetNumberOfPermutations()
+    {
+        return (int)(Math.Pow(Names.Length, 3) * Suffixes.Length);
+    }
+
     public string GetGeneratedName()
     {
         string firstName = Names[Random.Shared.Next(Names.Length)];
