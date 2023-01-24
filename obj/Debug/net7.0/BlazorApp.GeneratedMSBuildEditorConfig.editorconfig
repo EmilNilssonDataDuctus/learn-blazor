@@ -28,18 +28,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eminilss/source/repos/learn-blazor/Pages/IDCatalogue/CorporateGroup/CorportateGroup.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSURDYXRhbG9ndWVcQ29ycG9yYXRlR3JvdXBcQ29ycG9ydGF0ZUdyb3VwLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/eminilss/source/repos/learn-blazor/Pages/IDCatalogue/CorporateGroup/RestaurantName/RestaurantPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSURDYXRhbG9ndWVcQ29ycG9yYXRlR3JvdXBcUmVzdGF1cmFudE5hbWVcUmVzdGF1cmFudFBhZ2UucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/eminilss/source/repos/learn-blazor/Pages/IDCatalogue/IDCatalogue.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSURDYXRhbG9ndWVcSURDYXRhbG9ndWUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/eminilss/source/repos/learn-blazor/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -60,9 +48,9 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eminilss/source/repos/learn-blazor/Pages/IDCatalogue/CorporateGroup/RestaurantName/EmployeesPage/EmployeesPage.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSURDYXRhbG9ndWVcQ29ycG9yYXRlR3JvdXBcUmVzdGF1cmFudE5hbWVcRW1wbG95ZWVzUGFnZVxFbXBsb3llZXNQYWdlLnJhem9y
-build_metadata.AdditionalFiles.CssScope = b-ae1ihxu3c4
+[C:/Users/eminilss/source/repos/learn-blazor/Pages/EmployeesPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-2h6i4lwwkj
 
 [C:/Users/eminilss/source/repos/learn-blazor/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=

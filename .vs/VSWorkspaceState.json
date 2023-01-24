@@ -1,9 +1,19 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Data",
+    "\\bin\\Debug",
+    "\\bin\\Debug\\net7.0",
     "\\Pages",
-    "\\Shared"
+    "\\Pages\\IDCatalogue",
+    "\\Pages\\IDCatalogue\\CorporateGroup",
+    "\\Pages\\IDCatalogue\\CorporateGroup\\RestaurantName",
+    "\\Pages\\IDCatalogue\\CorporateGroup\\RestaurantName\\EmployeesPage",
+    "\\Shared",
+    "\\wwwroot"
   ],
+<<<<<<< HEAD
+=======
+  "SelectedNode": "\\Pages\\Todo.razor",
+>>>>>>> 09b5285 (Move employee component to parent folder)
   "PreviewInSolutionExplorer": false
 }
