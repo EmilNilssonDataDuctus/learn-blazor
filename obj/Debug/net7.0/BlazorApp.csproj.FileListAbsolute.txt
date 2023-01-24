@@ -62,6 +62,7 @@ C:\Users\eminilss\source\repos\learn-blazor\obj\Debug\net7.0\refint\BlazorApp.dl
 C:\Users\eminilss\source\repos\learn-blazor\obj\Debug\net7.0\BlazorApp.pdb
 C:\Users\eminilss\source\repos\learn-blazor\obj\Debug\net7.0\BlazorApp.genruntimeconfig.cache
 C:\Users\eminilss\source\repos\learn-blazor\obj\Debug\net7.0\ref\BlazorApp.dll
+<<<<<<< HEAD
 C:\Users\eminilss\source\repos\learn-blazor\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 C:\Users\eminilss\source\repos\learn-blazor\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\eminilss\source\repos\learn-blazor\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
@@ -70,3 +71,6 @@ C:\Users\eminilss\source\repos\learn-blazor\bin\Debug\net7.0\Microsoft.IdentityM
 C:\Users\eminilss\source\repos\learn-blazor\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\eminilss\source\repos\learn-blazor\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\eminilss\source\repos\learn-blazor\obj\Debug\net7.0\BlazorApp.csproj.CopyComplete
+=======
+C:\Users\eminilss\source\repos\learn-blazor\obj\Debug\net7.0\scopedcss\Pages\IDCatalogue\CorporateGroup\RestaurantName\EmployeesPage\EmployeesPage.razor.rz.scp.css
+>>>>>>> d40feb0 (Install MudBlazor)

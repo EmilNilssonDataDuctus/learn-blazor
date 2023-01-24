@@ -17,6 +17,16 @@ public class GeneratedNameService
         return (int)(Math.Pow(Names.Length, 3) * Suffixes.Length);
     }
 
+    public string GetFirstName()
+    {
+        return Names[Random.Shared.Next(Names.Length)];
+    }
+
+    public string GetSurnameName()
+    {
+        return Names[Random.Shared.Next(Names.Length)] + Suffixes[Random.Shared.Next(Suffixes.Length)];
+    }
+
     public string GetGeneratedName()
     {
         string firstName = Names[Random.Shared.Next(Names.Length)];

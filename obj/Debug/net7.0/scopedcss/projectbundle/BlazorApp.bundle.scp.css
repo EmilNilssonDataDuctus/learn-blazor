@@ -1,3 +1,76 @@
+/* _content/BlazorApp/Pages/IDCatalogue/CorporateGroup/RestaurantName/EmployeesPage/EmployeesPage.razor.rz.scp.css */
+table[b-ae1ihxu3c4] {
+    background-color: red;
+    width: 100%;
+}
+
+    table input[type="checkbox"][b-ae1ihxu3c4] {
+        padding: 50px;
+    }
+
+thead[b-ae1ihxu3c4] {
+    background-color: grey;
+}
+
+    thead th[b-ae1ihxu3c4] {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+        thead th:first-of-type[b-ae1ihxu3c4] {
+            padding-left: 20px;
+        }
+
+        thead th:last-of-type[b-ae1ihxu3c4] {
+            padding-left: 20px;
+        }
+
+tbody tr[b-ae1ihxu3c4] {
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+
+tbody td[b-ae1ihxu3c4] {
+    padding: 20px 50px 20px 0;
+}
+
+    tbody td:last-of-type[b-ae1ihxu3c4] {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+.space-out[b-ae1ihxu3c4] {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul[b-ae1ihxu3c4] {
+    width: 400px;
+}
+
+    ul li[b-ae1ihxu3c4] {
+        border-bottom: 1px solid grey;
+        list-style: none;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+        ul li a[b-ae1ihxu3c4] {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-decoration: none;
+        }
+
+            ul li a:hover[b-ae1ihxu3c4] {
+                text-decoration: revert;
+            }
+
+            ul li a div div:last-child[b-ae1ihxu3c4] {
+                color: grey;
+            }
 /* _content/BlazorApp/Shared/MainLayout.razor.rz.scp.css */
 .page[b-3dsd3z3yec] {
     position: relative;
