@@ -32,12 +32,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/eminilss/source/repos/learn-blazor/Pages/MudBlazorTest.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXVkQmxhem9yVGVzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/eminilss/source/repos/learn-blazor/Pages/NameCombiner.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmFtZUNvbWJpbmVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/eminilss/source/repos/learn-blazor/Pages/PeriodicTableOfElements.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyaW9kaWNUYWJsZU9mRWxlbWVudHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eminilss/source/repos/learn-blazor/Pages/TabsComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFic0NvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/eminilss/source/repos/learn-blazor/Pages/Todo.razor]
