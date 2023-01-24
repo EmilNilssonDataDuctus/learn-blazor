@@ -3,7 +3,7 @@
 @using MudBlazor.Examples.Data.Models
 @inject HttpClient httpClient
 
-<MudTable Items="@Elements" MultiSelection="true" T="Element" SelectedItemsChanged="OnSelectedItemsChanged" Comparer="Comparer">
+<MudTable Items="@Elements" MultiSelection="true" T="Element" SelectedItemsChanged="OnSelectedItemsChanged" Comparer="Comparer" Hover="true">
     <HeaderContent>
         <MudTh>Nr</MudTh>
         <MudTh>Sign</MudTh>
@@ -43,7 +43,7 @@
 
     protected override async Task OnInitializedAsync()
     {
-        Elements = await httpClient.GetFromJsonAsync<List<Element>>("webapi/periodictable");
+        Elements = await httpClient.GetFromJsonAsync<List<Element>>("https://try.mudblazor.com/webapi/periodictable");
     }
 
     class ElementComparer : IEqualityComparer<Element>

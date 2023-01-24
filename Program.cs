@@ -22,6 +22,7 @@ builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddSingleton<GeneratedNameService>();
 builder.Services.AddMudServices();
+builder.Services.AddHttpClient();
 
 builder.Services.AddSingleton<TokenClient>();
 
