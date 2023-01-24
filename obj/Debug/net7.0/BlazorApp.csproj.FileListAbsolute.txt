@@ -74,6 +74,7 @@ C:\Users\eminilss\source\repos\learn-blazor\obj\Debug\net7.0\BlazorApp.csproj.Co
 =======
 C:\Users\eminilss\source\repos\learn-blazor\obj\Debug\net7.0\scopedcss\Pages\IDCatalogue\CorporateGroup\RestaurantName\EmployeesPage\EmployeesPage.razor.rz.scp.css
 >>>>>>> d40feb0 (Install MudBlazor)
+>>>>>>> 01db675 (Add example component from MudBlazor)
 C:\Users\eminilss\source\repos\learn-blazor\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
 C:\Users\eminilss\source\repos\learn-blazor\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
 C:\Users\eminilss\source\repos\learn-blazor\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
@@ -82,3 +83,4 @@ C:\Users\eminilss\source\repos\learn-blazor\bin\Debug\net7.0\Microsoft.AspNetCor
 C:\Users\eminilss\source\repos\learn-blazor\bin\Debug\net7.0\Microsoft.JSInterop.dll
 C:\Users\eminilss\source\repos\learn-blazor\bin\Debug\net7.0\MudBlazor.dll
 >>>>>>> 09b5285 (Move employee component to parent folder)
+C:\Users\eminilss\source\repos\learn-blazor\obj\Debug\net7.0\scopedcss\Pages\EmployeesPage.razor.rz.scp.css
