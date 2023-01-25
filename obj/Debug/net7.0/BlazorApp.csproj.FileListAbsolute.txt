@@ -84,4 +84,3 @@ C:\Users\eminilss\source\repos\learn-blazor\bin\Debug\net7.0\Microsoft.JSInterop
 C:\Users\eminilss\source\repos\learn-blazor\bin\Debug\net7.0\MudBlazor.dll
 >>>>>>> 09b5285 (Move employee component to parent folder)
 C:\Users\eminilss\source\repos\learn-blazor\obj\Debug\net7.0\scopedcss\Pages\EmployeesPage.razor.rz.scp.css
-C:\Users\eminilss\source\repos\learn-blazor\obj\Debug\net7.0\scopedcss\Pages\TreeView.razor.rz.scp.css
