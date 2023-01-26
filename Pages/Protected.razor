@@ -1,8 +1,8 @@
 @page "/protected"
-@model ProtectedModel
+@inject ProtectedModel Model
 
 <!-- Needed so that POSTs send an anti-forgery token -->
-@using addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers
+<!-- @addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers -->
 
 
 <h1>Protected View</h1>
