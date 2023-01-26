@@ -1,6 +1,10 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using BlazorApp.Data;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Protocols.OpenIdConnect;
+using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +13,45 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddSingleton<GeneratedNameService>();
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = OpenIDConnectDefaults.AuthenticationScheme;
+});
+builder.Services.AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, options =>
+{
+    options.Cookie.SameSite = SameSiteMode.Strict;
+});
+builder.Services.AddOpenIDConnect(options =>
+{
+    options.SignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+
+    options.Authority = Configuration.GetValue<string>("OpenIDConnect:Issuer");
+    options.ClientId = Configuration.GetValue<string>("OpenIDConnect:ClientID");
+    options.ClientSecret = Configuration.GetValue<string>("OpenIDConnect:ClientSecret");
+    options.ResponseType = OpenIdConnectResponseType.Code;
+    options.ResponseMode = OpenIdConnectResponseMode.Query;
+    options.GetClaimsFromUserInfoEndpoint = true;
+
+    string scopeString = Configuration.GetValue<string>("OpenIDConnect:Scope");
+    scopeString.Split(" ", StringSplitOptions.TrimEntries).ToList().ForEach(scope => {
+        options.Scope.Add(scope);
+    });
+
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidIssuer = options.Authority,
+        ValidAudience = options.ClientId
+    };
+
+    options.Events.OnRedirectToIdentityProviderForSignOut = (context) =>
+    {
+        context.ProtocolMessage.PostLogoutRedirectUri = Configuration.GetValue<string>("OpenIDConnect:PostLogoutRedirectUri");
+        return Task.CompletedTask;
+    };
+
+    options.SaveTokens = true;
+});
 
 var app = builder.Build();
 
@@ -22,6 +65,12 @@ if (!app.Environment.IsDevelopment())
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseAuthentication();
+app.UseAuthorization();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapRazorPages();
+});
 
 app.MapBlazorHub();
 app.MapFallbackToPage("/_Host");

@@ -36,6 +36,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmFtZUNvbWJpbmVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/eminilss/source/repos/learn-blazor/Pages/Protected.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvdGVjdGVkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/eminilss/source/repos/learn-blazor/Pages/Todo.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9kby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
