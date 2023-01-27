@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 
-namespace OidcClientDemoApplication
+namespace BlazorApp
 {
     /*
      * A utility class for working with tokens

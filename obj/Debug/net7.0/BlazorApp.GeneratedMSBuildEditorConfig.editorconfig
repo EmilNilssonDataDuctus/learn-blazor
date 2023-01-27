@@ -36,10 +36,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmFtZUNvbWJpbmVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eminilss/source/repos/learn-blazor/Pages/Protected.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvdGVjdGVkLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/eminilss/source/repos/learn-blazor/Pages/Todo.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9kby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -62,6 +58,10 @@ build_metadata.AdditionalFiles.CssScope = b-7cxxmz0cwl
 
 [C:/Users/eminilss/source/repos/learn-blazor/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eminilss/source/repos/learn-blazor/Pages/Protected.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvdGVjdGVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/eminilss/source/repos/learn-blazor/Pages/_Host.cshtml]
