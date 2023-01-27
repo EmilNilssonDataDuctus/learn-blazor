@@ -35,9 +35,9 @@ builder.Services.AddAuthentication(options =>
 
     options.SignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
 
-    options.Authority = Configuration["OpenIdConnect:Issuer"];
-    options.ClientId = Configuration["OpenIdConnect:ClientID"];
-    options.ClientSecret = Configuration["OpenIdConnect:ClientSecret"];
+    options.Authority = Configuration["OpenIDConnect:Issuer"];
+    options.ClientId = Configuration["OpenIDConnect:ClientId"];
+    options.ClientSecret = Configuration["OpenIDConnect:ClientSecret"];
     options.ResponseType = OpenIdConnectResponseType.Code;
     options.ResponseMode = OpenIdConnectResponseMode.Query;
     options.GetClaimsFromUserInfoEndpoint = true;
