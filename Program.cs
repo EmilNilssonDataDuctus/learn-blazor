@@ -8,6 +8,7 @@ using Microsoft.IdentityModel.Protocols.OpenIdConnect;
 using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
+var Configuration = builder.Configuration;
 
 // Add services to the container.
 builder.Services.AddRazorPages();
@@ -27,14 +28,14 @@ builder.Services.AddAuthentication(options =>
 {
     options.SignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
 
-    options.Authority = Configuration.GetValue<string>("OpenIDConnect:Issuer");
-    options.ClientId = Configuration.GetValue<string>("OpenIDConnect:ClientID");
-    options.ClientSecret = Configuration.GetValue<string>("OpenIDConnect:ClientSecret");
+    options.Authority = Configuration["OpenIDConnect:Issuer"];
+    options.ClientId = Configuration["OpenIDConnect:ClientID"];
+    options.ClientSecret = Configuration["OpenIDConnect:ClientSecret"];
     options.ResponseType = OpenIdConnectResponseType.Code;
     options.ResponseMode = OpenIdConnectResponseMode.Query;
     options.GetClaimsFromUserInfoEndpoint = true;
 
-    string scopeString = Configuration.GetValue<string>("OpenIDConnect:Scope");
+    string scopeString = Configuration["OpenIDConnect:Scope"];
     scopeString.Split(" ", StringSplitOptions.TrimEntries).ToList().ForEach(scope => {
         options.Scope.Add(scope);
     });
@@ -47,7 +48,7 @@ builder.Services.AddAuthentication(options =>
 
     options.Events.OnRedirectToIdentityProviderForSignOut = (context) =>
     {
-        context.ProtocolMessage.PostLogoutRedirectUri = Configuration.GetValue<string>("OpenIDConnect:PostLogoutRedirectUri");
+        context.ProtocolMessage.PostLogoutRedirectUri = Configuration["OpenIDConnect:PostLogoutRedirectUri"];
         return Task.CompletedTask;
     };
 
