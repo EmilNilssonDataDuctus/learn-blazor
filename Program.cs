@@ -35,6 +35,8 @@ builder.Services.AddAuthentication(options =>
     options.ResponseMode = OpenIdConnectResponseMode.Query;
     options.GetClaimsFromUserInfoEndpoint = true;
 
+    options.RequireHttpsMetadata = false;
+
     string scopeString = Configuration["OpenIDConnect:Scope"];
     scopeString.Split(" ", StringSplitOptions.TrimEntries).ToList().ForEach(scope => {
         options.Scope.Add(scope);
