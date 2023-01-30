@@ -10,6 +10,7 @@ using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 var Configuration = builder.Configuration;
+Console.WriteLine(Configuration["OpenIDConnect:ClientSecret"]);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
