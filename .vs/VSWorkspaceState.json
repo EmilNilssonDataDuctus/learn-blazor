@@ -11,9 +11,6 @@
     "\\Shared",
     "\\wwwroot"
   ],
-<<<<<<< HEAD
-=======
   "SelectedNode": "\\Pages\\Todo.razor",
->>>>>>> 09b5285 (Move employee component to parent folder)
   "PreviewInSolutionExplorer": false
 }

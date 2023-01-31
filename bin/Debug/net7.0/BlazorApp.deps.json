@@ -8,17 +8,13 @@
     ".NETCoreApp,Version=v7.0": {
       "BlazorApp/1.0.0": {
         "dependencies": {
-<<<<<<< HEAD
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": "7.0.2"
-=======
           "MudBlazor": "6.1.7"
->>>>>>> 5a44d86 (Iterate on MudTable to use my mockdata instead of MudBlazors mockdata)
         },
         "runtime": {
           "BlazorApp.dll": {}
         }
       },
-<<<<<<< HEAD
       "Microsoft.AspNetCore.Authentication.OpenIdConnect/7.0.2": {
         "dependencies": {
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.15.1"
@@ -100,7 +96,6 @@
         }
       },
       "System.Security.Cryptography.Cng/4.5.0": {}
-=======
       "Microsoft.AspNetCore.Authorization/7.0.1": {
         "dependencies": {
           "Microsoft.AspNetCore.Metadata": "7.0.1",
@@ -196,7 +191,6 @@
         }
       },
       "System.IO.Pipelines/7.0.0": {}
->>>>>>> 5a44d86 (Iterate on MudTable to use my mockdata instead of MudBlazors mockdata)
     }
   },
   "libraries": {
@@ -205,7 +199,6 @@
       "serviceable": false,
       "sha512": ""
     },
-<<<<<<< HEAD
     "Microsoft.AspNetCore.Authentication.OpenIdConnect/7.0.2": {
       "type": "package",
       "serviceable": true,
@@ -268,7 +261,6 @@
       "sha512": "sha512-WG3r7EyjUe9CMPFSs6bty5doUqT+q9pbI80hlNzo2SkPkZ4VTuZkGWjpp77JB8+uaL4DFPRdBsAY+DX3dBK92A==",
       "path": "system.security.cryptography.cng/4.5.0",
       "hashPath": "system.security.cryptography.cng.4.5.0.nupkg.sha512"
-=======
     "Microsoft.AspNetCore.Authorization/7.0.1": {
       "type": "package",
       "serviceable": true,
@@ -366,7 +358,6 @@
       "sha512": "sha512-jRn6JYnNPW6xgQazROBLSfpdoczRw694vO5kKvMcNnpXuolEixUyw6IBuBs2Y2mlSX/LdLvyyWmfXhaI3ND1Yg==",
       "path": "system.io.pipelines/7.0.0",
       "hashPath": "system.io.pipelines.7.0.0.nupkg.sha512"
->>>>>>> 5a44d86 (Iterate on MudTable to use my mockdata instead of MudBlazors mockdata)
     }
   }
 }
