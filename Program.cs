@@ -2,15 +2,12 @@ using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using BlazorApp;
 using BlazorApp.Data;
-<<<<<<< HEAD
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Protocols.OpenIdConnect;
 using Microsoft.IdentityModel.Tokens;
-=======
 using MudBlazor.Services;
->>>>>>> 95ac225 (Setup MudBlazor following installation instructions)
 
 var builder = WebApplication.CreateBuilder(args);
 var Configuration = builder.Configuration;
