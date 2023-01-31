@@ -24,20 +24,48 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/eminilss/source/repos/learn-blazor/Pages/EmployeesPage (2).razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzUGFnZSAoMikucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/eminilss/source/repos/learn-blazor/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eminilss/source/repos/learn-blazor/Pages/GridOfSelects.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3JpZE9mU2VsZWN0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/eminilss/source/repos/learn-blazor/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/eminilss/source/repos/learn-blazor/Pages/MudBlazorTest.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXVkQmxhem9yVGVzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/eminilss/source/repos/learn-blazor/Pages/NameCombiner.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmFtZUNvbWJpbmVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/eminilss/source/repos/learn-blazor/Pages/PeriodicTableOfElements.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyaW9kaWNUYWJsZU9mRWxlbWVudHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eminilss/source/repos/learn-blazor/Pages/SelectComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VsZWN0Q29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eminilss/source/repos/learn-blazor/Pages/TableOfEmployees.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGVPZkVtcGxveWVlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/eminilss/source/repos/learn-blazor/Pages/Todo.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9kby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eminilss/source/repos/learn-blazor/Pages/TreeView.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJlZVZpZXcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/eminilss/source/repos/learn-blazor/Shared/SurveyPrompt.razor]
@@ -47,6 +75,10 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/eminilss/source/repos/learn-blazor/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eminilss/source/repos/learn-blazor/Pages/EmployeesPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-2h6i4lwwkj
 
 [C:/Users/eminilss/source/repos/learn-blazor/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=

@@ -1,9 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Data",
+    "\\bin\\Debug",
+    "\\bin\\Debug\\net7.0",
     "\\Pages",
-    "\\Shared"
+    "\\Pages\\IDCatalogue",
+    "\\Pages\\IDCatalogue\\CorporateGroup",
+    "\\Pages\\IDCatalogue\\CorporateGroup\\RestaurantName",
+    "\\Pages\\IDCatalogue\\CorporateGroup\\RestaurantName\\EmployeesPage",
+    "\\Shared",
+    "\\wwwroot"
   ],
+  "SelectedNode": "\\Pages\\Todo.razor",
   "PreviewInSolutionExplorer": false
 }

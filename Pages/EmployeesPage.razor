@@ -1,0 +1,22 @@
+@page "/idcatalogue"
+@using BlazorApp.Data
+@inject NavigationManager NavManager
+
+<PageTitle>303030 - Skjulet Baren</PageTitle>
+<MudTabs Elevation="2" Rounded="true" ApplyEffectsToContainer="true" PanelClass="pa-6">
+    <MudTabPanel Text="Användare">
+        <TableOfEmployees />
+    </MudTabPanel>
+    <MudTabPanel Text="Kundnummer">
+        <TreeView />
+    </MudTabPanel>
+</MudTabs>
+@code {
+
+    private EmployeeInfo[]? employees;
+
+    protected override async Task OnInitializedAsync()
+    {
+        employees = await EmployeesService.GetEmployeesData();
+    }
+}

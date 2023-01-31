@@ -1,18 +1,39 @@
 {
   "version": 2,
-  "dgSpecHash": "amWWD3f2/LnnIGBIxhlHY2r7JlckdeAhxcUhdKWSMvTSKLwWMLMSRWW1/otX+scklIMfwN9yILbZOptEoio9HQ==",
+  "dgSpecHash": "RifpSTY6p4BzloSjxVQx49N4Fef+G/NeiYpJCzVviyTOhcRg82BIyOCa8LykXpwnlCLOT3AXTYw65lHwJ8fdjw==",
   "success": true,
   "projectFilePath": "C:\\Users\\eminilss\\source\\repos\\learn-blazor\\BlazorApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eminilss\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\7.0.2\\microsoft.aspnetcore.authentication.openidconnect.7.0.2.nupkg.sha512",
+    "C:\\Users\\eminilss\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.1\\microsoft.aspnetcore.authorization.7.0.1.nupkg.sha512",
+    "C:\\Users\\eminilss\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.1\\microsoft.aspnetcore.components.7.0.1.nupkg.sha512",
+    "C:\\Users\\eminilss\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\7.0.1\\microsoft.aspnetcore.components.analyzers.7.0.1.nupkg.sha512",
+    "C:\\Users\\eminilss\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\7.0.1\\microsoft.aspnetcore.components.forms.7.0.1.nupkg.sha512",
+    "C:\\Users\\eminilss\\.nuget\\packages\\microsoft.aspnetcore.components.web\\7.0.1\\microsoft.aspnetcore.components.web.7.0.1.nupkg.sha512",
+    "C:\\Users\\eminilss\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.1\\microsoft.aspnetcore.metadata.7.0.1.nupkg.sha512",
     "C:\\Users\\eminilss\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\eminilss\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\eminilss\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\eminilss\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\eminilss\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\eminilss\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\eminilss\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.15.1\\microsoft.identitymodel.jsonwebtokens.6.15.1.nupkg.sha512",
     "C:\\Users\\eminilss\\.nuget\\packages\\microsoft.identitymodel.logging\\6.15.1\\microsoft.identitymodel.logging.6.15.1.nupkg.sha512",
     "C:\\Users\\eminilss\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.15.1\\microsoft.identitymodel.protocols.6.15.1.nupkg.sha512",
     "C:\\Users\\eminilss\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.15.1\\microsoft.identitymodel.protocols.openidconnect.6.15.1.nupkg.sha512",
     "C:\\Users\\eminilss\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.15.1\\microsoft.identitymodel.tokens.6.15.1.nupkg.sha512",
+    "C:\\Users\\eminilss\\.nuget\\packages\\microsoft.jsinterop\\7.0.1\\microsoft.jsinterop.7.0.1.nupkg.sha512",
+    "C:\\Users\\eminilss\\.nuget\\packages\\mudblazor\\6.1.7\\mudblazor.6.1.7.nupkg.sha512",
     "C:\\Users\\eminilss\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.15.1\\system.identitymodel.tokens.jwt.6.15.1.nupkg.sha512",
+    "C:\\Users\\eminilss\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
     "C:\\Users\\eminilss\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\eminilss\\source\\repos\\learn-blazor\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

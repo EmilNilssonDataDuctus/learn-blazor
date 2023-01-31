@@ -1,0 +1,72 @@
+table[b-2h6i4lwwkj] {
+    background-color: red;
+    width: 100%;
+}
+
+    table input[type="checkbox"][b-2h6i4lwwkj] {
+        padding: 50px;
+    }
+
+thead[b-2h6i4lwwkj] {
+    background-color: grey;
+}
+
+    thead th[b-2h6i4lwwkj] {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+        thead th:first-of-type[b-2h6i4lwwkj] {
+            padding-left: 20px;
+        }
+
+        thead th:last-of-type[b-2h6i4lwwkj] {
+            padding-left: 20px;
+        }
+
+tbody tr[b-2h6i4lwwkj] {
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+
+tbody td[b-2h6i4lwwkj] {
+    padding: 20px 50px 20px 0;
+}
+
+    tbody td:last-of-type[b-2h6i4lwwkj] {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+.space-out[b-2h6i4lwwkj] {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul[b-2h6i4lwwkj] {
+    width: 400px;
+}
+
+    ul li[b-2h6i4lwwkj] {
+        border-bottom: 1px solid grey;
+        list-style: none;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+        ul li a[b-2h6i4lwwkj] {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-decoration: none;
+        }
+
+            ul li a:hover[b-2h6i4lwwkj] {
+                text-decoration: revert;
+            }
+
+            ul li a div div:last-child[b-2h6i4lwwkj] {
+                color: grey;
+            }
